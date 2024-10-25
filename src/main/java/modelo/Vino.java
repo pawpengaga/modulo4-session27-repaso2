@@ -120,7 +120,7 @@ public class Vino implements IconDescuento, IesLiquido, IesAlimento {
   @Override
   public String toString() {
     return "Vino [marca=" + marca + ", tipoVino=" + tipoVino + ", grados=" + grados + ", precio=" + precio
-        + ", volumen=" + volumen + ", tipoEnvase=" + tipoEnvase + ", caducidad=" + caducidad + ", descuento="
+        + " Precio con descuento: " + getPrecioDescuento() + ", volumen=" + volumen + ", tipoEnvase=" + tipoEnvase + ", caducidad=" + caducidad + ", descuento="
         + descuento + "]";
   }
 
