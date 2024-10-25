@@ -17,8 +17,6 @@ public class Cereal implements IesAlimento {
     this.precio = precio;
   }
 
-  
-
   public String getMarca() {
     return marca;
   }
