@@ -73,7 +73,7 @@ public class Detergente implements IesLiquido, IconDescuento {
 
   @Override
   public String toString() {
-    return "Detergente [marca=" + marca + ", precio=" + precio + ", volumen=" + volumen + ", tipoEnvase=" + tipoEnvase + ", descuento=" + descuento + "]";
+    return "Detergente \nMarca: " + marca + ", Precio: " + precio + ",\n Descuento: " + descuento + ",\nVolumen: " + volumen + ", Tipo de envase: " + tipoEnvase;
   }
 
 

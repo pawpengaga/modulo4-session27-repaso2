@@ -73,7 +73,7 @@ public class Cereal implements IesAlimento {
 
   @Override
   public String toString() {
-    return "Cereal [marca=" + marca + ", precio=" + precio + ", tipoCereal=" + tipoCereal + ", caducidad=" + caducidad + "]";
+    return "Cereal \nMarca: " + marca + ", Precio: " + precio + ", tipoCereal=" + tipoCereal + ", caducidad=" + caducidad + "]";
   }
 
   
